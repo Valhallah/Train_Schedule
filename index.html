@@ -7,6 +7,8 @@
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <!-- firebase link -->
     <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+    <!-- moment.js link -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
@@ -51,12 +53,12 @@
                         <th>Minutes Away</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
+                <tbody id="mainTableBody">
+                    <!-- <tr>
                         <td id="trainInfo1" class="trainInfo" value="">
                             ...
                         </td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
         </div>
@@ -65,7 +67,6 @@
                 <h3 class="panel-title">Add Train</h3>
             </div>
             <div class="panel-body">
-                <form role="form">
                     <div class="form-group">
                         <label for="name-input">Train Name:</label>
                         <input class="form-control" id="name-input" type="text">
@@ -83,7 +84,7 @@
                         <input class="form-control" id="frequency-input" type="number">
                         </textarea>
                     </div>
-                  <button class="button" id=="addTrain">Add Train</button>
+                  <button class="button" id="addTrain">Add Train</button>
             </div>
             <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
