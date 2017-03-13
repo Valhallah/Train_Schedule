@@ -1,17 +1,15 @@
 Body {
-
 background-color: #f2f2f2;
-
-}
-
-.jumbotron a{
-  text-decoration: none;
-  color: #fff;
 }
 
 a {
   text-decoration: none;
   color: red;
+}
+
+.jumbotron a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .jumbotron{
@@ -39,25 +37,17 @@ a {
   opacity: 0.9;
 }
 
-
-.col-md-6 p {
-
-}
-
 .col-md-12 {
   text-align: center;
   font-size: 80px;
 }
 
-
 .panel-heading{
   background-color: #298EAC;
-
   font-weight: bold;
   color: #fff;
 }
 
 th {
-  /*font-family: 'Droid Serif', serif;*/
   font-weight: bold;
 }
