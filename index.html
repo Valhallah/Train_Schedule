@@ -21,72 +21,80 @@
 </head>
 
 <body>
-    <div class="jumbotron" id="trainImg">
-        <div class="row">
-            <div col-md-3></div>
-            <div col-md-3></div>
+    <!-- <div class="container"> -->
+        <div class="jumbotron" id="trainImg">
+
+
             <!-- need to make this part happen in JS -->
-            <div class="col-md-6" class="slideOutRight">
-                Keep Track of Your Trips
-                <p>click here to see how</p>
-            </div>
+
+            <h2>Keep Track of Your Trains</h2>
+            <a href="TrainHome.html">
+                <p></p>
+            </a>
+
+
+    </div>
+    <br> <br>
+    <!-- <div class="container"> -->
+    <div class="row">
+        <div class="col-md-8">
+            <!-- <img src="assets/img/woman_train.jpeg" class="img-responsive img-thumbnail" alt="Responsive image"> -->
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <span>...</span>
-            </div>
+    <div class="row">
+        <div class="col-md-12">
+            Your Trains
         </div>
-        <div class="panel panel-default">
-            <!-- Default panel contents -->
-            <div class="panel-heading">
-                <h3 class="panel-title">Train Schedule</h3>
-            </div>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Train Name</th>
-                        <th>Destination</th>
-                        <th>Frequency(min)</th>
-                        <th>Next Arrival</th>
-                        <th>Minutes Away</th>
-                    </tr>
-                </thead>
-                <tbody id="mainTableBody">
-                    <!-- <tr>
-                        <td id="trainInfo1" class="trainInfo" value="">
-                            ...
-                        </td>
-                    </tr> -->
-                </tbody>
-            </table>
+    </div>
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">
+            <h3 class="panel-title">Train Schedule</h3>
         </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Add Train</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Train Name</th>
+                    <th>Destination</th>
+                    <th>Frequency(min)</th>
+                    <th>Next Arrival</th>
+                    <th>Minutes Away</th>
+                    <th><a class="disabled" id="deleteSelected" href="#">Delete</a></th>
+                </tr>
+            </thead>
+            <tbody id="mainTableBody">
+
+            </tbody>
+        </table>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Add Train</h3>
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <label for="name-input">Train Name:</label>
+                <input class="form-control" id="name-input" type="text">
             </div>
-            <div class="panel-body">
-                    <div class="form-group">
-                        <label for="name-input">Train Name:</label>
-                        <input class="form-control" id="name-input" type="text">
-                    </div>
-                    <div class="form-group">
-                        <label for="email-input">Destination:</label>
-                        <input class="form-control" id="destination-input" type="text">
-                    </div>
-                    <div class="form-group">
-                        <label for="age-input">First Train Time (hh:mm - Military Time):</label>
-                        <input class="form-control" id="time-input" type="text">
-                    </div>
-                    <div class="form-group">
-                        <label for="comment-input">Frequency (min):</label>
-                        <input class="form-control" id="frequency-input" type="number">
-                        </textarea>
-                    </div>
-                  <button class="button" id="addTrain">Add Train</button>
+            <div class="form-group">
+                <label for="email-input">Destination:</label>
+                <input class="form-control" id="destination-input" type="text">
             </div>
-            <script type="text/javascript" src="assets/js/app.js"></script>
+            <div class="form-group">
+                <label for="age-input">First Train Time (hh:mm - Military Time):</label>
+                <input class="form-control" id="time-input" type="text">
+            </div>
+            <div class="form-group">
+                <label for="comment-input">Frequency (min):</label>
+                <input class="form-control" id="frequency-input" type="number">
+                </textarea>
+            </div>
+            <button class="button" id="addTrain">Add Train</button>
+        </div>
+
+    <!-- </div> -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+
 </body>
 
 </html>
