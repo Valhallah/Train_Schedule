@@ -1,5 +1,7 @@
 Body {
 
+background-color: #f2f2f2;
+
 }
 
 .jumbotron a{
@@ -21,12 +23,11 @@ a {
   background-size:cover;
   background-position:center;
   opacity: 0.9;
-  height: 800px;
+  height: 760px;
 }
 
 .jumbotron h2 {
-  margin-top: 55px;
-  
+  margin-top: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,16 +39,7 @@ a {
   opacity: 0.9;
 }
 
-  /*.col-md-6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #298EAC;
-    height: 100px;
-    text-align: center;
-    color: #fff;
-    opacity: 0.9;
-  }*/
+
 .col-md-6 p {
 
 }
@@ -58,9 +50,11 @@ a {
 }
 
 
-.panel-heading {
-  /*font-family: 'Droid Serif', serif;*/
+.panel-heading{
+  background-color: #298EAC;
+
   font-weight: bold;
+  color: #fff;
 }
 
 th {
