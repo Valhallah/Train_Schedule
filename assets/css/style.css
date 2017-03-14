@@ -1,53 +1,62 @@
 Body {
-background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 a {
-  text-decoration: none;
-  color: red;
+    text-decoration: none;
+    color: red;
 }
 
-.jumbotron a{
-  text-decoration: none;
-  color: #fff;
+.jumbotron a {
+    text-decoration: none;
+    color: #fff;
 }
 
-.jumbotron{
-  background-image: url("../img/woman_train.jpeg");
-  background-repeat:no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  background-position:center;
-  opacity: 0.9;
-  height: 760px;
+.jumbotron {
+
+    background-image: url("../img/woman_train.jpeg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    height: 563px;
 }
 
-.jumbotron h2 {
-  margin-top: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #298EAC;
-  width: 500px;
-  height: 100px;
-  text-align: center;
-  color: #fff;
-  opacity: 0.9;
+.jumbotron h2{
+
+    /*margin-top: 300px;
+    margin-left: 250px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #298EAC;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.9;
 }
 
 .col-md-12 {
-  text-align: center;
-  font-size: 80px;
+    text-align: center;
+    font-size: 80px;
 }
 
-.panel-heading{
-  background-color: #298EAC;
-  font-weight: bold;
-  color: #fff;
+.panel-heading {
+    background-color: #298EAC;
+    font-weight: bold;
+    color: #fff;
 }
 
 th {
+    font-weight: bold;
+}
+
+button {
+  background-color: #298EAC;
+  color: #fff;
   font-weight: bold;
 }
