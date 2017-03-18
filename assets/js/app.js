@@ -43,6 +43,8 @@
         $("input:checked").each(function() {
             var trainName = $(this).attr("id");
             var dbRef = database.ref("/trains")
+            dbRef.child(trainName).remove();
+            alert(trainName);
         });
     });
 
